@@ -53,13 +53,49 @@ body {
     font-size: 50px;
     font-weight: 400;
     color: #fff;
+    padding: 10px 0;
 }
 
 .section01 .inner p {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
     color: #fff;
     line-height: 20px;
+}
+
+/* ------------------------------------------------------------- */
+
+.section02 {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+/* 백그라운드 사진 밑 공간 */
+    padding: 0 0;
+
+}
+.sectionTitle {
+    height: 250px;
+}
+.sectionTitle h2 {
+    font-size: 50px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.sectionTitle p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.sectionImg {
+    display: flex;
+    gap: 30px;
+    /* 세개 사진 위아래 양옆 */
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 .footer {
